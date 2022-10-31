@@ -190,16 +190,15 @@
         height: 365px;
         margin-top: -30px;
         margin-left: -78pt;
-        background: url('video.png');
+        background: url(../../image/bgvideo.mp4);
+        border: 5px bold yellow;
     }
-    .bgvideo { 
-        top: 50%;
+    .main .bgvideo {
         left: 50%;
         width: 400px;
-        height: 400px;
+        height: 200px;
         transform: translateX(-50%) translateY(-50%);
-        background-size: auto;
-        padding-bottom: 700px;
+        margin-bottom: -247px;
     } 
     .Klass{
         color: white;
