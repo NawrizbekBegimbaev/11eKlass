@@ -3,7 +3,7 @@
         font-size: 80%;
         font-family: sans-serif;
         letter-spacing: 0.15em;
-        background: url('video.png');
+        background-color: black;
     }
     .bgvideo {
         position: fixed;
@@ -57,6 +57,21 @@
         font-style: inherit;
         font-weight: bolder;
     }
+    #sector1{
+        width: 100%;
+        min-width: 1500px;
+        height: 700px;
+        position: relative;
+        overflow: hidden;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+    .bgvideo{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
     .main{
         width: 1500px;
         height: 700px;
@@ -67,7 +82,7 @@
         color: white;
         text-align: left;
         padding-top: 230px;
-        padding-left: 500px;
+        padding-left: 350px;
         font-size: 60px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
@@ -75,18 +90,9 @@
         color: white;
         text-align: center;
         padding-bottom: 20px;
-        padding-left: 100px;
+        margin-left: -150px;
         font-size: 25px;
         font-weight: initial;
-    }
-    #Teacher{
-        margin-left: 600px;
-        margin-top: 40px;
-        font-size: 40px;
-        padding: 15px 50px;
-        border: 0;
-        border-radius: 5px;
-        background-color: #00614A;
     }
     a:hover, a.on {
         color: rgb(226, 43, 43);
@@ -94,7 +100,8 @@
     }
     .school{
         color: white;
-        margin-left: 465px;
+        margin-left: 650px;
+        margin-top: 100px;
         font-size: 37px;
         font-family:sans-serif;
         font-weight: normal;
@@ -112,7 +119,7 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .schoolimg{
-        margin-left: 400px;
+        margin-left: 100px;
         margin-top: -150px;
         border: 4px double #000;
     }
@@ -127,7 +134,7 @@
         width: 500px;
         height: auto;
         border: 4px double #000;
-        background-color: black;
+        background-color: white;
         margin-left: 100px;
     }
     .NawrizImg{
@@ -135,6 +142,7 @@
         height: 50%;
     }
     .NawrizP{
+        color: black;
         margin-left: 100px;
         font-size: 20px;
     }

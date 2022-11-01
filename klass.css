@@ -4,9 +4,10 @@
         font-size: 80%;
         font-family: sans-serif;
         letter-spacing: 0.15em;
+        width: 1000px;
     }
     #page{
-        max-width: 100%;
+        width: 100%;
         height: auto;
         margin: 10px auto 10px auto;
         padding: 20px;
@@ -42,7 +43,7 @@
         margin-right: 500pt;
     }
     .main{
-        width: 1029pt;
+        width: 1370px;
         height: 600px;
         margin-top: -73px;
         margin-left: -78pt;
@@ -61,15 +62,6 @@
         padding-left: 170px;
         font-size: 25px;
         font-weight: initial;
-    }
-    #Teacher{
-        margin-left: 500px;
-        margin-top: 40px;
-        font-size: 40px;
-        padding: 15px 50px;
-        border: 0;
-        border-radius: 5px;
-        background-color: #00614A;
     }
     .watch{
         font-style: initial;
